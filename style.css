@@ -1,0 +1,67 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.navbar {
+    line-height: 120px;
+    padding: 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0px 16px;
+    font-size: 32px;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left; 
+    padding: 20px;
+}
+
+.post {
+    text-align: center;
+}
+
+.subscribe {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 20px;
+}
+
+.subscribe input[type=text] {
+    padding: 10px 15px;
+}
+
+.subscribe input[type=submit] {
+    border: none;
+    padding: 10px 82px;
+    background-color: black;
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.subscribe input[type=submit]:hover {
+    background-color: grey;
+}
+
+.post a {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
